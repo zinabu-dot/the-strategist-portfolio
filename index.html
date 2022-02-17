@@ -1,301 +1,242 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Design Attempt</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .main{
-            width: 100;
-            background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)50%),url(BgImage.jpg);
-            background-position: center;
-            background-size: cover; 
-            height: 109vh;
-        }
-        .navbar{
-            width: 1200px;
-            height: 57px;
-            margin: auto;
-        }
-        .icon{
-            width: 200px;
-            float: left;
-            height: 70px;
-        }
-    
-        .logo{
-            /* text-shadow: 1000px; */
-            color: #ff7200;
-            font-family: Arial;
-            font-size: 35px;
-            padding-left: 20px;
-            float: left;
-            padding-top: 10px;
-            /*margin-top: 10px; 
-            border-radius: 50px;*/
-        }
-        .menu{
-            /*background-color: aqua;
-            font-size: 50px;
-            border-radius: 20px;
-            margin-top: 0px;*/
-            width: 400px;
-            float: left;
-            height: 70px;
-        }
-        ul{
-            float: left;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        ul li{
-            list-style: none;
-            margin-left: 62px;
-            margin-top: 27px;
-            font-size: 14px;
-        }
-        ul li a{
-            text-decoration: none;
-            color: #fff;
-            font-family: Arial;
-            transition: 0.4s ease-in-out;
-        }
-        ul li a:hover{
-            color: orange;
-        }
-        .search{
-            width: 330px;
-            float: left;
-            margin-left: 270px;
-        }
-        .srch{
-            font-family: 'Times New Roman';
-            width: 200px;
-            height: 40px;
-            background: transparent;
-            border: 1px solid #ff7200;
-            margin-top: 13px;
-            color: #fff;
-            border-right: none;
-            font-size: 16px;
-            float: left;
-            padding: 10px;
-            border-bottom-left-radius: 5px;
-            border-top-left-radius: 5px;
-        }
-        .btn{
-            width: 100px;
-            height: 40px;
-            background: #ff7200;
-            border: 2px solid #ff7200;
-            margin-top: 13px;
-            color: #fff;
-            border-bottom-left-radius: 5px;
-            border-bottom-right-radius: 5px;
-        }
-        .btn:focus{
-            outline: none;
-        }
-        .srch:focus{
-            outline: none;
-        }
-    </style>
-</head>
-<body>
-    <div class="main">
-        <div class="navbar">
-            <div class="icon">
-                <h2 class="logo">DataModel </h2>
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Zinabu the Strategist</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-            </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">SERVICE</a></li>
-                    <li><a href="#">DESIGN</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-            </div>
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Zinabu<br />
+						The Data Scientist <br > Portfolio</h1>
+						<p>A Data Scientist and Analyst, experienced in Python, R, Java, SQL, Tableau, and Power BI <a href="https://www.linkedin.com/in/zinabu-t-melese-1382486a/">@zinabutheunlocker</a> .</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
-            <div class="search">
-                <input class="srch" type="search" name="" placeholder="type text">
-                <a href="#"><button class="btn">Search</button></a>
-            </div>
-        </div>
-    </div>
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">UNLOCKER</a>
+					</header>
 
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Projects</a></li>
+							<li><a href="skills.html">Technical Skills</a></li>
+							<!-- <li><a href="generic.html">Generic Page</a></li>
+							<li><a href="elements.html">Elements Reference</a></li> -->
+						</ul>
+						<ul class="icons">
+							<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li> -->
+							<li><a href="https://www.linkedin.com/in/zinabu-t-melese-1382486a/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/zinabu-dot" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
 
-    <!-- Java script codes should be written under under script section as seen below-->
-    <script>    
-// for example (if condition);
-    let weather = "Gloomy"
-    weather == "Gloomy" ? console.log("The weather appears to be gloomy") : console.log("the weather is unknown")
+				<!-- Main -->
+					<div id="main">
 
-    // for example (if condition, but using switch condition);
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
 
-    switch (weather){
-        case "Rainy": console.log("The weather is "+ weather.toLowerCase()+'.' + " Grab your Jacket.")
-        case "Sunny": console.log("The weather is " + weather.toLowerCase() + '.' + " Grab your Jacket.")
-        case "Gloomy": console.log("The weather is " + weather.toLowerCase() + '.')
-    }
+									<h2><a href="https://github.com/zinabu-dot/Zinabu-portfolio">Data Cleaning in Python
+									</a></h2>
+									<p>In this project, we cleaned the Botanical health claims' data <br />
+									for commercial purpose.<br />
+									</p>
+								</header>
+								<a href="https://github.com/zinabu-dot/Zinabu-portfolio" class="image main"><img src="images/botanicals.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="https://github.com/zinabu-dot/Zinabu-portfolio" class="button large">Project Details</Details></a></li>
+								</ul>
+							</article>
 
-// Storing a value found from if condition
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+									<!--	<span class="date">April 24, 2017</span> -->
+										<h2><a href="https://github.com/zinabu-dot/Zinabu-portfolio">Data Cleaning and Exploration in High <br />
+										Performance Computing (HPC) Linux Cluster</a></h2>
+									</header>
+									<a href="https://github.com/zinabu-dot/Zinabu-portfolio" class="image fit"><img src="images/hpc.jpg" alt="" /></a>
+									<p>Utilized python on high performance computing Linux cluster to detect health states of animals on 15M records using
+									machine learning techniques. Constructed slurm objects and manage batch files.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/zinabu-dot/Zinabu-portfolio" class="button">View Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<!-- <span class="date">April 22, 2017</span> -->
+										<h2><a href="https://github.com/zinabu-dot/pneumonia_detection_from_chest_x-ray/blob/main/app.py">Computer Vision<br />
+										in Healthcare <br> With the Application of Deep Learning</a></h2>
+									</header>
+									<a href="https://github.com/zinabu-dot/pneumonia_detection_from_chest_x-ray/blob/main/app.py" class="image fit"><img src="images/cv.png" alt="" /></a>
+									<p>Implemented computer vision using Python to detect pneumonia from x-ray images.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/zinabu-dot/pneumonia_detection_from_chest_x-ray/blob/main/app.py" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<!--<span class="date">April 18, 2017</span> -->
+										<h2><a href="https://github.com/zinabu-dot/Zinabu-portfolio">Anomaly Detection<br />
+										on Feeding Behaviour Data</a></h2>
+									</header>
+									<a href="https://github.com/zinabu-dot/Zinabu-portfolio" class="image fit"><img src="images/anomali.png" alt="" /></a>
+									<p>Built Long Short-Term Memory (LSTM) anomaly detection algorithm using keras on historical data.</p>
+									<ul class="actions special">
+										<li><a href="https://github.com/zinabu-dot/Zinabu-portfolio" class="button">Full Story</a></li>
+									</ul>
+								</article>
 
-    let num = 6;
-    let value = num > 6 ? "The number is greater than 6." : "The number is either 6 or less."
-    console.log(value) // print the above value
+				 
+								 <article>
+									<header>
+										<!--<span class="date">April 14, 2017</span> -->
+										<h2><a href="https://github.com/zinabu-dot/COVID-19-Modeling_AA/blob/master/finance.ipynb">Stock Investment Classification<br />
+										</a></h2>
+									</header>
+									<a href="https://github.com/zinabu-dot/COVID-19-Modeling_AA/blob/master/finance.ipynb" class="image fit"><img src="images/stock.png" alt="" /></a>
+									<p>It was a customary practice to pass a decision on either to buy or skip a stock at a desire date usng historical data. However, we transformed such common approach to a classification algorithm based on a defined amount of profit that can be earned from selling the stock in a few days a head. </p>
+									<ul class="actions special">
+										<li><a href="https://github.com/zinabu-dot/COVID-19-Modeling_AA/blob/master/finance.ipynb" class="button">Full Story</a></li>
+									</ul>
+								</article>
 
-    // Function (Sum the first n numbers)
-    function SumFunc(n){
-        sum=0
-        for (let i = 0; i <= n; i++) {
-            sum += i;
-            
-        }
-        return sum
-    }
-    console.log("The sum of the first five positive integers is " + SumFunc(5)+ ".")
+								<!--
+								<article>
+									<header>
+										<span class="date">April 11, 2017</span>
+										<h2><a href="#">Odio magna<br />
+										sed consectetur</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">April 7, 2017</span>
+										<h2><a href="#">Augue lorem<br />
+										primis vestibulum</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<ul class="actions special">
+										<li><a href="#" class="button">Full Story</a></li>
+									</ul>
+								</article>
+							</section>
+							-->
 
-    // whie loop
-    function SumOfNIntegers(n)
-    {
-        sum=0
-        i=0
-        while (i<=n){
-            sum += i
-            i++
-        }
-        return sum
-    }
-    console.log("Sum: " + SumOfNIntegers(20))
+						<!-- Footer 
+							<footer>
+								<div class="pagination">
+									<a href="#" class="previous">Prev</a>
+									<a href="#" class="page active">1</a>
+									<a href="#" class="page">2</a>
+									<a href="#" class="page">3</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">8</a>
+									<a href="#" class="page">9</a>
+									<a href="#" class="page">10</a>
+									<a href="#" class="next">Next</a>
+								</div>
+							</footer>
+							-->
+						
+					</div>
+					
 
-    // whie loop alternative 
-    function SumOfNIntegersAlternative(n) {
-        sum = 0
-        while (n != 0) {
-            sum += n
-            n--
-        }
-        return sum
-    }
-    console.log("Sum: " + SumOfNIntegersAlternative(20))
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section> 
+					 <!-- -->
+						
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Korenbloemstraat 55 <br />
+								Eindhoven, The Netherlands</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="#">+31686241137</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">take.z70@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li> -->
+									<li><a href="https://www.linkedin.com/in/zinabu-t-melese-1382486a/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/zinabu-dot" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul> 
+							</section>
+						</section>
+					</footer>
 
-    // Return even numbers in an array
-    
-    function ReturnEven(array){
-        let num = []
-        let j=0
-        for (let i=0; i<array.length; i++){
-            if (array[i]%2==0){
-                num[j] = array[i]  // num.push(array[i]) also works and no need of j index
-                j++
-            } 
-        }
-        return num
-    }
-    console.log(ReturnEven([1,2,3,4]))
+				<!-- Copyright -->
+					<div id="copyright">
+						<!-- <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul> -->
+					</div>
+				
 
-    // instead of the usual function we can use the arrow function for the above function as follows.
+			</div>
 
-    const ReturnEvenArrow = (array) => {  // for arrow function the same function name can not be used in the same coding file, thus ReturnEven changed to ReturnEvenArrow
-        const num = []
-        let j=0
-        for (let i = 0; i < array.length; i++) {
-            if (array[i] % 2 == 0) {
-                num[j] = array[i]  // num.push(array[i]) also works and no need of j index
-                j++
-            }
-        }
-        return num
-    }
-    console.log(ReturnEvenArrow([1, 2, 3, 4]))
-
-    // OR in a more funcy way
-    const ReturnEvenArrowFancy = (array) => {  // for arrow function the same function name can not be used in the same coding file, thus ReturnEven changed to ReturnEvenArrow
-            const num = []
-            for (const val of array) {
-                if (val % 2 == 0) num.push(val)
-            }
-            return num
-        }
-        console.log(ReturnEvenArrowFancy([1, 2, 3, 4]))
-
-
-        // Zero removing function from arrays
-        function NonZero(a){
-            let nonZeroNum = []
-            let j = 0 
-            for (let i=0; i<a.length; i++){
-                if (a[i]!=0) {
-                    nonZeroNum[j]=a[i]
-                    j++
-                }
-            }
-            return nonZeroNum    
-        }
-        console.log(NonZero([0,0,9,1,4,0]))
-
-        // for the above case using filter built in
-        const nonZeros = (a) =>a.filter(num => num != 0)
-        console.log(nonZeros([0, 0, 9, 1, 4, 0]))
-    
-    
-    // A function of doubling each element of an array
-    function DoublArray (a){
-        const array = []
-        for (let i=0; i<a.length; i++){
-            array[i] = a[i]*2
-        }
-        return array
-    }
-
-    console.log(DoublArray([1, 2, 0, 3, -1]))
-
-    // Checking if an array contains the number n
-    const containednNum = (arr, n) => {
-        for (const num of arr){
-            if (num == n){
-                return true
-            }
-        }
-        return false
-    }
-    console.log(containednNum([0,1,2,3,0], -1))
-
-    // Repeating a number n p times if it exists in an array
-    function RepeatNum (a, n, p){
-        let array = []
-        j=0
-        for (let num of a) {
-          if (num == n){
-              for (let k=1; k<=p; k++) {
-                array[j] = num;
-                j++
-              }
-          } 
-          else{
-            array[j] = num
-            j++
-          }
-          
-        } 
-        return array 
-    }
-          
-    console.log(RepeatNum([3, 1, 0, 7, 9, -1], 4, 10))
-
-
-    </script>
-
-    
-
-</body>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			
+	</body>
 </html>
