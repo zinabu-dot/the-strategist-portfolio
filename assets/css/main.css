@@ -3790,6 +3790,7 @@ input, select, textarea {
 				font-size: 4rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
+				color: #5a8ab9;
 			}
 
 			#main > .post.featured {
@@ -4687,3 +4688,85 @@ input, select, textarea {
 		}
 
 	}
+
+
+	
+.inner{
+    padding-top: 20px;
+}
+
+.header{
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+}
+
+.header:after{
+    content: '';
+    position: absolute;
+    bottom: o;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 100px;
+    background-color: #2ecc71;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1rem 80px;
+    font-size: 1.2rem;
+}
+
+.skill-box{
+    display: 1rem;
+    color: rgb(22, 22, 22);
+    cursor: pointor;
+	text-align: center;
+}
+
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    background-color: rgb(238, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-title h3{
+    color: rgb(131, 117, 117);
+    margin: 0.5rem;
+}
+
+.skill-icon{
+    width: 70px;
+}
+
+.skill-box:hover, .skill-title h3:hover{
+	color: #18bfef;
+}
+
+
+#main > .post header.major > h1:hover, #main > .post header.major h2:hover {
+				font-size: 4rem;
+				line-height: 1.1;
+				margin: 0 0 2rem 0;
+				color: #5ab962;
+			}
