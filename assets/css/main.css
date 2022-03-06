@@ -4743,7 +4743,7 @@ input, select, textarea {
     width: 90px;
     height: 90px;
     position: relative;
-    border-radius: 45px;
+    border-radius: 50px;
     background-color: rgb(238, 231, 231);
     display: flex;
     justify-content: center;
@@ -4755,12 +4755,17 @@ input, select, textarea {
     margin: 0.5rem;
 }
 
+.skill-box p{
+	text-align: center;
+}
+
 .skill-icon{
     width: 70px;
 }
 
-.skill-box:hover, .skill-title h3:hover{
+.skill-box:hover, .skill-title:hover h3:hover {
 	color: #18bfef;
+	padding-right: 10px;
 }
 
 
